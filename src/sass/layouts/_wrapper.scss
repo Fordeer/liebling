@@ -3,13 +3,15 @@
   width: 100%;
   margin: 0 auto;
   padding: 0 $mobile-space;
+  max-width: 960px;
 
   @include respond-to('medium') {
     max-width: 1200px;
+    padding: 0 60px;
   }
 
   @include respond-to('extra-large') {
-    padding: 0;
+    padding: 0 60px;
   }
 
   &.in-submenu {
@@ -28,13 +30,16 @@
     @include respond-to('medium') {
       max-width: 960px;
     }
+    @include respond-to('large') {
+      max-width: 1200px;
+    }
   }
 
   &.in-comments {
     color: var(--primary-foreground-color);
 
     @include respond-to('medium') {
-      max-width: 820px;
+      max-width: 920px;
     }
   }
 

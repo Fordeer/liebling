@@ -117,7 +117,7 @@
 
   &.in-featured-articles {
     position: absolute;
-    color: $white;
+    color: var(--titles-color);
     font-size: 0.875rem;
     width: 40px;
     height: 40px;
