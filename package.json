@@ -64,7 +64,7 @@
         "default": "",
         "group": "homepage"
       },
-      "custom_page_descrtiption": {
+      "custom_page_description": {
         "type": "text",
         "default": "",
         "group": "homepage"
