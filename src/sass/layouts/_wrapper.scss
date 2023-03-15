@@ -13,6 +13,9 @@
   @include respond-to('extra-large') {
     padding: 0 60px;
   }
+  @include respond-to('largest') {
+    max-width: 1400px;
+  }
 
   &.in-submenu {
     padding: 0;
@@ -32,6 +35,9 @@
     }
     @include respond-to('large') {
       max-width: 1200px;
+    }
+    @include respond-to('largest') {
+      max-width: 1400px;
     }
   }
 

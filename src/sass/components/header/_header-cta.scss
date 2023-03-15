@@ -1,0 +1,13 @@
+.m-nav__cta {
+  padding: $mobile-space 0;
+  width: 100%;
+  .m-button {
+    width: 100%;
+  }
+
+  @include respond-to('medium') {
+    padding: 0 0 0 $mobile-space;
+  }
+}
+
+
